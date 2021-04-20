@@ -12,6 +12,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+      <link
+            rel="preload"
+            href="/FontsFree-Net-TurismoCF-100.ttf"
+            as="font"
+            crossOrigin=""
+          />
         <title>Rogério Ceratti</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
