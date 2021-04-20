@@ -329,10 +329,10 @@
 
   .titleGridApps span::before,
   .titleGridApps span::after {
-    display: none;
+    display: none !important;
   }
 
   .titleGridApps span::after {
-    display: none;
+    display: none !important;
   }
 }
