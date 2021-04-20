@@ -199,28 +199,26 @@
   gap: 15px;
 }
 
-.Card {   
+.Card {
   position: relative;
   display: grid;
   grid-template-columns: 300px;
   grid-template-rows: 150px 100px;
-  grid-template-areas: "innerCardOne" "innerCardTwo" ;
+  grid-template-areas: "innerCardOne" "innerCardTwo";
   position: relative;
   margin-top: 15px;
   justify-content: center;
-
 }
 
-.innerCardOne span{
+.innerCardOne span {
   width: 305px;
   height: 135px;
-  justify-content: center;  
+  justify-content: center;
 }
 
-.innerCardTwo{  
-  padding:2px;
+.innerCardTwo {
+  padding: 2px;
   justify-content: center;
-  
 }
 
 .btnSection {
@@ -247,7 +245,7 @@
 }
 
 @media screen and (max-width: 800px) {
-  .TitleDiv h1{
+  .TitleDiv h1 {
     font-size: 2.5rem;
   }
 
@@ -274,7 +272,7 @@
     width: 20rem;
   }
 
-  .main {    
+  .main {
     padding-left: 15px;
     padding-right: 15px;
     font-size: 1.5rem;
@@ -283,10 +281,9 @@
   .titleGridApps span {
     font-size: 1.5rem;
     margin-bottom: 40px;
-    
   }
 
-  .gridOccupationArea {    
+  .gridOccupationArea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -328,5 +325,14 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
+  }
+
+  .titleGridApps span::before,
+  .titleGridApps span::after {
+    display: none;
+  }
+
+  .titleGridApps span::after {
+    display: none;
   }
 }
